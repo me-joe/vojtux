@@ -9,7 +9,7 @@ prepdir () {
   chmod 777 $1
 }
 
-if [ "$0" != "dockerbuild/build.sh" && "$0" != "./dockerbuild/build.sh" ]; then
+if [ "$0" != "dockerbuild/build.sh" ] && [ "$0" != "./dockerbuild/build.sh" ]; then
   echo 'wrong usage! Please call from the vojtux root directory! e.g.'
   echo 'dockerbuild/build.sh'
   if [ -z "$1" ]; then
