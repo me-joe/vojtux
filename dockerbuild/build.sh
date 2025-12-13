@@ -47,4 +47,4 @@ docker run \
   -v $OUTPUT:/output \
   vojtux:latest
 
-sudo find $OUTPUT -name vojtux_38.iso
+find $OUTPUT -name vojtux_38.iso
